@@ -9,12 +9,12 @@ body {
 
 @font-face {
     font-family: PP Eiko;
-    src: url('../static/fonts/eiko/PPEiko-Black.woff2');
+    src: url('/fonts/eiko/PPEiko-Black.woff2');
 }
 
 @font-face {
     font-family: PP Object Sans;
-    src: url('../static/fonts/object-sans/PPObjectSans-Regular.woff2');
+    src: url('/fonts/object-sans/PPObjectSans-Regular.woff2');
 }
 
 .text-eiko{
@@ -23,4 +23,19 @@ body {
 
 .text-objectsans{
     font-family: 'PP Object Sans';
+}
+
+.footer:has(a.email:hover){
+    background-color: #B91C1C;
+    transition: 200ms;
+}
+
+.footer:has(a.readcv:hover){
+    background-color: #374151;
+    transition: 200ms;
+}
+
+.footer:has(a.insta:hover){
+    background-color:#BE185D;
+    transition: 200ms;
 }
