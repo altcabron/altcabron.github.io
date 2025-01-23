@@ -17,11 +17,11 @@ body {
     src: url('/fonts/object-sans/PPObjectSans-Regular.woff2');
 }
 
-.text-eiko{
+.eiko{
     font-family: 'PP Eiko';
 }
 
-.text-objectsans{
+.objectsans{
     font-family: 'PP Object Sans';
 }
 
@@ -38,4 +38,9 @@ body {
 .footer:has(a.insta:hover){
     background-color:#BE185D;
     transition: 200ms;
+}
+
+div.img {
+    width: 21rem;
+    height: 28rem;
 }

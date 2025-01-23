@@ -3,6 +3,11 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
+		extend: {
+			backgroundImage: {
+				'guido': "url('/img/guido.jpg')"
+			},
+		},
 		colors: {
 			black: {
 				DEFAULT: '#252525',
@@ -13,6 +18,7 @@ export default {
 		},
 		fontSize: {
 			'header': '2.5rem',
+			'h1': '4rem',
 		},
 	},
 
