@@ -2,13 +2,19 @@
 <script>
     import Footer from '@components/chrome/Footer.svelte';
     import Header from '@components/chrome/Header.svelte'
+	import Brands from '@components/main/Brands.svelte';
 	import Headline from '@components/main/Headline.svelte';
+	import Photography from '@components/main/Photography.svelte';
+	import Projects from '@components/main/Projects.svelte';
     import Title from '@components/Title.svelte'
 </script>
 
 <Header/>
-<Title/>
+<!-- <Title/> -->
 <Headline/>
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<Projects/>
+    <hr class="border-dashed text-gray-200 container items-center max-w-screen-lg mx-auto">
+<Photography/>
+    <hr class="border-dashed text-gray-200 container items-center max-w-screen-lg mx-auto">
+<Brands/>
 <Footer/>
