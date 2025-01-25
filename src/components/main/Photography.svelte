@@ -1,3 +1,8 @@
+<script>
+    import photoData from "@data/photo.json"
+    let photoArray = photoData.imageArray
+</script>
+
 <div class="container flex flex-col gap-20 max-w-screen-lg mx-auto text-black py-40">
     <div class="flex gap-16">
         <h2 class="text-header eiko font-black">Photography</h2>
@@ -10,13 +15,8 @@
         </div>
     </div>
     <div class="flex items-center w-screen gap-6">
-        <div class="img-hor bg-lanterns">
-        </div>
-        <div class="img-vert bg-shinsekai">
-        </div>
-        <div class="img-hor bg-guido">
-        </div>
-        <div class="img-hor bg-guido">
-        </div>
+        {#each photoArray as photoObject}
+        <img src={photoObject.img} class={photoObject.isVertical ? "img-vert" : "img-hor"} alt={photoObject.alt} />
+        {/each}
     </div>
 </div>

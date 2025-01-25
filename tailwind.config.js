@@ -4,11 +4,6 @@ export default {
 
 	theme: {
 		extend: {
-			backgroundImage: {
-				'guido': "url('/img/guido.jpg')",
-				'lanterns': "url('/img/lanterns.JPG')",
-				'shinsekai': "url('/img/shinsekai.JPG')"
-			},
 		},
 		colors: {
 			black: {

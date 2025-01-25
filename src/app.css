@@ -44,7 +44,7 @@ body {
 }
 
 .footer:has(a.insta:hover){
-    background-color: #dd2a7b, 20%;
+    background-color: #dd2a7b;
     transition: 200ms ease-in-out;
 }
 
