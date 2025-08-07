@@ -1,0 +1,33 @@
+body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    color: #252525;
+}
+
+main {
+  opacity: 0;
+  animation: fadeInUp var(--animation-speed-slow) ease-out forwards;
+  padding-top: 1rem;
+}
+
+p > a {
+  display: inline-flex;
+  align-items: center;
+}
+
+p > a > .material-symbols-outlined {
+    font-size: 0.75rem;
+}
+
+img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    padding-top: 0rem;
+  }
+}

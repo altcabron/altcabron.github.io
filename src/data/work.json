@@ -1,0 +1,41 @@
+{
+    "workArray": [
+        {
+            "place": "Shopmonkey",
+    		"when": "07/2023 - current",
+            "position": "Junior Desiger",
+            "site": "https://www.shopmonkey.nl/nl",
+    		"description": "At Shopmonkey I work as the sole designer for all projects, on both UI and UX design and together with the team we are responsible for the development of all the customers requests."
+        },
+		{
+			"place": "Elastique",
+    		"when": "02 - 05/2023",
+            "position": "Junior Digital Designer",
+            "site": "https://www.elastique.nl/nl",
+    		"description": "While I only worked at Elastique for a shorter period I gained a lot of valuable knowledge about best practices, workflow and design systems."
+		},
+		{
+			"place": "ABN AMRO",
+    		"when": "02 - 06/2020",
+            "position": "UX Design Intern",
+            "site": "https://www.abnamro.nl/nl/prive/index.html",
+    		"description": "During my six-month internship at ABN AMRO, one of the leading banks in the Netherlands, I had the opportunity to work with the Private Banking team as a User Experience Design Intern. My main focus was on the revamp of the Design System, aiming to align the Private Banking user experience with the rest of the bank."
+		},
+		{
+			"place": "IAM Core",
+    		"when": "02/2020 - 02/2021",
+            "position": "Committee Chairman",
+            "site": "https://iamcore.nl/",
+    		"description": "During my time as the Commission Chairman for IAM Core's Game Commission, I played a crucial role in organizing and overseeing game events for IAM Core members. As part of the Commission, our primary responsibility was to plan and execute various game-related activities on and off campus."
+		},
+        {
+            "place": "Lemoncake Agency",
+            "when": "04 - 06/2018",
+            "position": "Design Intern",
+            "site": "https://www.linkedin.com/company/lemoncake/about/",
+            "description": "3 month internship at Creative Agency Lemoncake in Amsterdam-Noord. Here I was mainly involved with CMS management and the design for their portfolio site. [Lemoncake isn't active anymore]"
+        }
+    ]
+    
+    
+}

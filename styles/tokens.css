@@ -1,0 +1,25 @@
+:root {
+    --font-primary: 'Eiko', serif;
+    --font-secondary: 'Object Sans', sans-serif;
+
+    --animation-speed-xfast: 100ms;
+    --animation-speed-fast: 200ms;
+    --animation-speed-medium: 300ms;
+    --animation-speed-slow: 400ms;
+}
+
+
+@font-face {
+    font-family: 'Eiko';
+    src: url(../static/fonts/eiko/PPEiko-Black.woff2);
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url(../static/fonts/object-sans/PPObjectSans-Regular.woff2);
+}
+
+@font-face {
+    font-family: 'Object Sans Bold';
+    src: url(../static/fonts/object-sans/PPObjectSans-Bold.woff2);
+}

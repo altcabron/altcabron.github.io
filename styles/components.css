@@ -1,0 +1,533 @@
+header, header ul{
+    display: flex;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header ul {
+    gap: 1rem;
+}
+
+header li:nth-of-type(3) {
+    display: none;
+}
+
+.intro {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+}
+
+.intro > h1 {
+    text-shadow: 4px 4px 0 #FFF8EF;
+}
+
+.projects, .photography, .brands {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.projects a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.projects a div {
+    border-bottom: 1px solid #252525;
+    flex-grow: 8;
+    transition: var(--animation-speed-fast);
+}
+
+.projects a:hover > div {
+    border-bottom: 1px solid #b82b2b;
+    transition: var(--animation-speed-fast);
+}
+
+ul.older {
+    display: none;
+}
+
+.full-list ul.older {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.description > a {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}
+
+.no-radius > img {
+    border-radius: 0px;
+}
+
+.img-vert {
+    width: 12rem;
+    height: 18rem;
+    border-radius: 0px;
+}
+
+.img-hor {
+    width: 18rem;
+    height: 12rem;
+    border-radius: 0px;
+}
+
+.img-head {
+    width: 19rem;
+    height: 25rem;
+    background-position: center;
+    object-fit: cover;
+    z-index: -1;
+    float: right;
+    margin-top: -4em;
+}
+
+.carousel {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    overflow-x: scroll;
+}
+
+.brands > div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+
+.brands img {
+    max-width: 38vw;
+}
+
+.challenge {
+    padding-left: 1rem;
+    border-left: 2px solid #b82b2b;
+    color: #b82b2b;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+section > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+section > h2, section > h3, section > h4 {
+    margin-bottom: -1.5rem;
+}
+
+section > div > img {
+    max-width: -webkit-fill-available;
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    line-height: 150%;
+}
+
+footer{
+    margin-left: -1rem;
+    padding-left: 1rem;
+    margin-right: -1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.socials {
+    gap: 1rem;
+}
+
+.project-intro {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    gap: 2.5rem;
+}
+
+.project-intro > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.project-intro > .title {
+    flex-direction: column-reverse;
+    gap: 0.5rem;
+}
+
+.project-intro ul {
+    font-family: var(--font-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-intro li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 146%;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+footer > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > div > div > a {
+    display: flex;
+    gap: 1rem;
+    border-bottom: #FFF8EF solid 1px;
+    padding-bottom: 1rem;
+}
+
+footer > div > div > a > p:first-of-type {
+    width: 5rem;
+    font-family: 'Object Sans Bold';
+}
+
+footer > div > div > a > p:nth-of-type(2) {
+    flex-grow: 4;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+.photos > img {
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.collabs > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.career {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.career > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.career > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.career > div > div > p {
+    font-family: 'Object Sans Bold';
+}
+
+.logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media(min-width: 650px) {
+    header li:nth-of-type(3) {
+        display: block;
+    }
+
+    ul.older {
+        display: flex;
+    }
+
+    footer > div > div > a {
+        gap: 2rem;
+    }
+
+    .project-intro {
+        gap: 2rem;
+    }
+
+    .title > p {
+        margin-bottom: 12px;
+    }
+
+    section > div > img {
+        max-width: 44vw;
+        max-height: fit-content;
+    }
+
+    section > div {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .photos {
+        display: block;
+        columns: 2;
+        column-gap: 1rem;
+    }
+
+    .photos > img {
+        margin-bottom: 0.75rem;
+    }
+
+    .headshot {
+        height: 28rem;
+    }
+}
+
+@media(min-width: 1000px) {
+    body {
+        margin: 0;
+    }
+
+    header, main {
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+    .headshot {
+        height: 45rem;
+    }
+
+    .intro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+    }
+
+    .intro > h1 {
+        max-width: 40rem;
+    }
+
+    .projects, .photography, .brands {
+        padding-bottom: 8rem;
+    }
+
+    .intro > img {
+        margin: 0;
+        width: 21rem;
+        height: 28rem;
+    }
+
+    .project-intro > p {
+        max-width: 40rem;
+    }
+
+    .description {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .description > h2 {
+        width: 20rem;
+    }
+
+    .description > p {
+        flex-shrink: 500;
+    }
+
+    .description > a {
+        flex-shrink: 0;
+    }
+
+    .project-intro > div > p, section > p, section > h2, section > h3 {
+        max-width: 40rem;
+    }
+
+    section > div > img {
+        max-width: 49%;
+    }
+
+    .project-intro > .title {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 1rem;
+    }
+
+    .project-intro > div:nth-of-type(2) {
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .collabs {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .career > div {
+        width: 40rem;
+    }
+
+    .img-hor {
+        width: 30rem;
+        height: 20rem;
+    }
+
+    .img-vert {
+        width: 20rem;
+        height: 30rem;
+    }
+
+    footer {
+        padding: 4rem;
+    }
+
+    footer > div {
+        max-width: 1080px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-template-rows: auto auto;
+        gap: 0;
+    }
+
+    footer > div > h2 {
+        width: 20rem;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column: 1;
+    }
+
+    footer > div > p {
+        grid-row-start: 2;
+        align-self: end;
+    }
+
+    .socials {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .socials > a:nth-of-type(4) {
+        border: none;
+    }
+
+    img {
+        border-radius: 16px;
+    }
+
+    .logo {
+    width: 4rem;
+    height: 4rem;
+    }
+
+    .carousel {
+        max-width: 1080px;
+        padding-bottom: 1rem;
+    }
+
+    ::-webkit-scrollbar {
+        height: 8px;
+        width: 8px;
+        border-radius: 16px;
+    }
+
+    ::-webkit-scrollbar-track {
+       background: transparent;
+       width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.15);
+        border-radius: 16px;
+        transition: var(--animation-speed-fast);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.5);
+        transition: var(--animation-speed-fast);
+    }
+}
+
+@media(min-width: 1800px) {
+    header, main {
+        max-width: 1240px;
+    }
+
+    footer > div {
+        max-width: 1240px;
+        grid-column-gap: 8rem;
+    }
+
+    .carousel {
+        max-width: 1240px;
+    }
+
+    .intro > h1 {
+        max-width: 53rem;
+    }
+
+}

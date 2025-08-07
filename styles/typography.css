@@ -1,0 +1,96 @@
+h1 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 3rem;
+    line-height: 150%;
+}
+
+h2 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 2.5rem;
+    line-height: 124%;
+}
+
+h3 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 1.5rem;
+}
+
+p , a {
+    font-family: var(--font-secondary);
+    letter-spacing: -0.5px;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+ul {
+    font-family: var(--font-secondary);
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+}
+
+a:hover, .selected {
+    color: #b82b2b;
+    transition: var(--animation-speed-fast);
+}
+
+footer a {
+    color: #FFF8EF;
+}
+
+header li {
+    list-style-type: none;
+}
+
+@media(min-width: 650px){
+    h1 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 3.5rem;
+    line-height: 150%;
+}
+
+h2 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 2.5rem;
+    line-height: 124%;
+}
+
+h3 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+h4 {
+    font-family: var(--font-primary);
+    letter-spacing: -0.5px;
+    font-size: 1.817rem;
+}
+
+p , a {
+    font-family: var(--font-secondary);
+    letter-spacing: -0.5px;
+    font-size: 1rem;
+    line-height: 150%;
+}
+}
+
+@media(min-width: 1000px) {
+    p {
+        line-height: 160%;
+    }
+}

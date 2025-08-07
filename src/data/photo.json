@@ -1,0 +1,26 @@
+{
+    "imageArray": [
+        {
+            "img": "/img/lanterns.JPG",
+    		"alt": "Japanese lanterns, glowing at night",
+    		"isVertical": false
+        },
+		{
+			"img": "/img/shinsekai.JPG",
+    		"alt": "a Hitachi tower at the end of a shopping street",
+    		"isVertical": true
+		},
+		{
+			"img": "/img/garden.jpg",
+    		"alt": "a pond with a stone bridge with skyscrapers in the far background",
+    		"isVertical": false
+		},
+		{
+			"img": "/img/akihabara.jpg",
+    		"alt": "a crossing in Akihabara, featuring large banners",
+    		"isVertical": false
+		}
+    ]
+    
+    
+}
