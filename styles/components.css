@@ -149,7 +149,7 @@ section > h2, section > h3, section > h4 {
 }
 
 section > div > img {
-    max-width: -webkit-fill-available;
+    max-width: 100%;
 }
 
 section ul {
@@ -362,8 +362,8 @@ footer > div > div > a > p:nth-of-type(2) {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding-top: 4rem;
-        padding-bottom: 8rem;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
     }
 
     .intro > h1 {
@@ -376,8 +376,8 @@ footer > div > div > a > p:nth-of-type(2) {
 
     .intro > img {
         margin: 0;
-        width: 21rem;
-        height: 28rem;
+        width: 29rem;
+        height: 36rem;
     }
 
     .project-intro > p {
