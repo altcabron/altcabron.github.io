@@ -61,6 +61,10 @@ header li:nth-of-type(3) {
     transition: var(--animation-speed-fast);
 }
 
+.socials a:hover {
+    color: #00abff;
+}
+
 ul.older {
     display: none;
 }
