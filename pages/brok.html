@@ -31,51 +31,61 @@
                                             <li><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="252525"><path d="M200-200h560v-342q-18 11-38.5 16.5T680-520q-66 0-113-47t-47-113q0-21 5.5-41.5T542-760H200v560Zm0 80q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-640v560-560Z"/></svg><p>UI</p></li>
                 </ul>
                 <p>
-                    <a target="_blank" href="https://www.bouwmaterialenkopen.com/">Brok Bouwmaterialen <span class="material-symbols-outlined">arrow_outward</span></a> is a web-based hardware store. They deliver for both private and b2b related. 
-                    They commissioned a different designer to flesh out their style, however they weren’t happy with the 
-                    functionality on a lot of the product pages, which had to be edited. Besides that they were also looking 
-                    for some additional pages and some other content.
+                    <a target="_blank" href="https://www.bouwmaterialenkopen.com/">Brok Bouwmaterialen <span class="material-symbols-outlined">arrow_outward</span></a> is a Dutch hardware store that operates entirely 
+                    online, serving both private customers and B2B clients. Their product catalog includes everything from decorative tiles to insulation materials, wood, and general construction supplies.<br>
+                    Brok had recently undergone a visual redesign with another designer, but they encountered serious UX and functionality issues, particularly on their product pages, which are critical to both user 
+                    experience and conversions.<br>
+                    They approached me to restructure and redesign these pages, while also expanding the design system with essential missing components, such as a mega menu and system notifications.
                 </p>
                 </div>
             </div>
             <section>
                 <h2>Product pages</h2>
                 <p>
-                    Brok were looking for a couple of different product pages, for different types of products they sell. 
-                    The differences on these pages were mainly in the product details, where the configurator could be used 
-                    for both say amount of tiles as well as square meters. 
+                    A central focus of the project was the product detail page. Because Brok sells so many different types of products each with its own units of measurement, configuration options, and 
+                    purchase logic, a single product page template wasn’t going to cut it.
+                </p>
+                <p>
+                    Instead, I designed a series of adaptable product page layouts, each tailored to a specific type of product and interaction.
                 </p>
                 <div>
                     <img src="../static/img/project/brok/brok-prod-det01.png">
                     <img src="../static/img/project/brok/brok-prod-det04.png">
                 </div>
                 <p>
-                    We'd start out with what we call the 'standard' layout, a volume discount table, followed by a calculator 
-                    that calculates the amount of tiles needed per square meter. Secondly I designed one that was specifically 
-                    used for product variants such as different shades of decorative tiles.
+                    For example, products like concrete blocks are sold in square meters. The user needs to know how many blocks they need for their area, and how that translates into actual purchase units. 
+                    I created a layout that combines a volume discount table (to encourage bulk purchases) with a tile calculator that automatically converts surface area into quantity, reducing the chance 
+                    of ordering mistakes.
+                </p>
+                <p>
+                    In contrast, for decorative products like tiles with different finishes or patterns, the layout needed to focus more on variant selection. These users aren’t calculating materials, they’re 
+                    choosing the exact look and finish they want. Here, I designed a more visual layout with thumbnail selectors and variant details, making it easier to compare styles at a glance.
                 </p>
                  <div>
                     <img src="../static/img/project/brok/brok-prod-det02.png">
                     <img src="../static/img/project/brok/brok-prod-det03.png">
                 </div>
                 <p>
-                    Next I created one with a simple selector that is for example used for wooden beams of a specific length. 
-                    I also designed a variant of the selector where you'd have two different selectors, these were mainly used 
-                    for insulation, where you could select the size and thickness of said insulation.
+                    Other materials, like timber or insulation, required a configuration model based on dimensions. Some products only needed a simple length selector, while others involved two or more inputs 
+                    (for example, selecting both the thickness and width of insulation panels). I created flexible UI components that allow the same layout to adapt depending on whether it needs one or multiple 
+                    selectors.
                 </p>
                 <div>
                     <img src="../static/img/project/brok/brok-prod-det05.png">
                 </div>
                 <p>
-                    And finally we had the simple variant for miscellaneous products that didn't need any special calculators.
+                    Lastly, for the more straightforward products like screws, adhesives and tools I designed a simple layout that kept things clean and to the point, with a focus on price, availability, and 
+                    quick add-to-cart functionality. All of these layouts shared a common design language but were customized to suit their specific use case.
                 </p>
             </section>
             <section>
                 <h2>Mega menu</h2>
                 <p>
-                    One of the things missing from the updated design was the mega menu. Their nav bar included a couple of 
-                    menus with less than ideal amounts of sub navigation for a mega menu, so we had to tweak it a bit to make 
-                    it work.
+                    Another key challenge was the site’s navigation. The new visual design had done away with a proper mega menu, but Brok’s catalog was far too complex to be managed by a basic dropdown.
+                </p>
+                <p>
+                    We revisited the category structure and reworked it to better suit the mega menu format. Some menus initially had too few or too many subcategories, which made it difficult to create a 
+                    layout that would both work technically and make sense visually. I helped reorganize this structure, grouping items in a way that felt intuitive to users without overwhelming them.
                 </p>
                 <div>
                     <img src="../static/img/project/brok/menu-extra--lg.png">
@@ -85,8 +95,12 @@
             <section>
                 <h2>System notifications</h2>
                 <p>
-                    One thing the original designer hadn't designed were system notifications. These system notifications fit within 
-                    the rest of the design while still standing out enough to grab attention when they appear.
+                    A surprisingly overlooked part of the original redesign was the absence of system notifications. These are critical for any platform as they guide users through actions like 
+                    adding items to the cart, encountering errors, or receiving confirmation after an order.
+                </p>
+                <p>
+                    I designed a set of system notifications that seamlessly integrated with the existing style but stood out enough to capture attention when needed. These included success messages (e.g., 
+                    "Product added to cart"), warnings (e.g., low stock alerts), errors (e.g., form submission issues), and informational messages (e.g., promotions or shipping delays).
                 </p>
                 <div class="no-radius">
                     <img src="../static/img/project/brok/notification-1.png">
@@ -94,8 +108,17 @@
                     <img src="../static/img/project/brok/notification-4.png">
                     <img src="../static/img/project/brok/notification-5.png">
                 </div>
+                <p>
+                    Each message was designed with clarity and accessibility in mind, using consistent iconography, clear contrast, and predictable placement to avoid disrupting the flow of the shopping experience.
+                </p>
             </section>
-
+            <section>
+                <h2>Reflection</h2>
+                <p>
+                    What made this project especially interesting from a UX perspective was the sheer variety of product behaviors that needed to be accounted for different measurement systems, configurators, 
+                    variants, and discount logic. The challenge was to bring all of that complexity under a unified system, without confusing the user or overcomplicating the interface.
+                </p>
+            </section>
        </main>
         <footer>
             <div>
