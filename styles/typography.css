@@ -81,7 +81,7 @@ h4 {
     font-size: 1.817rem;
 }
 
-p , a {
+p , a, li {
     font-family: var(--font-secondary);
     letter-spacing: -0.5px;
     font-size: 1rem;
@@ -90,14 +90,14 @@ p , a {
 }
 
 @media(min-width: 1000px) {
-    p, p > a, p > a > .material-symbols-outlined {
+    p, li, li > a, p > a, p > a > .material-symbols-outlined, li > a > .material-symbols-outlined {
         line-height: 160%;
         font-size: 1.12rem;
     }
 }
 
 @media(min-width: 1800px) {
-    p, p > a {
+    p, p > a, li, li > a {
         line-height: 160%;
         font-size: 1.25rem;
     }
