@@ -92,7 +92,7 @@ p , a {
 @media(min-width: 1000px) {
     p, p > a, p > a > .material-symbols-outlined {
         line-height: 160%;
-        font-size: 1.1rem;
+        font-size: 1.12rem;
     }
 }
 
