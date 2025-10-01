@@ -39,6 +39,7 @@ header li:nth-of-type(3) {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    max-width: 100%;
 }
 
 .projects a {
