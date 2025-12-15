@@ -79,6 +79,7 @@ h4 {
     font-family: var(--font-primary);
     letter-spacing: -0.5px;
     font-size: 1.817rem;
+    line-height: normal;
 }
 
 p , a, li {

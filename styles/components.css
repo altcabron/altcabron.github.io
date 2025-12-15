@@ -290,7 +290,8 @@ footer > div > div > a > p:nth-of-type(2) {
 }
 
 .career > div > div > p {
-    font-family: 'Object Sans Bold';
+    font-family: 'Object Sans';
+    color: dimgray;
 }
 
 .logo {
